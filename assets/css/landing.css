@@ -1,0 +1,519 @@
+/* starting of navbar css */
+body, html {
+	margin: 0;
+	font-family: Roboto, Arial, helvetica, sans-serif;
+}
+
+a {
+	outline: none;
+}
+
+.navbar-container {
+	text-align: center;
+	background-color: #98EECC;
+	box-shadow: 0px -20px 5px 20px #333333;
+	padding: 10px;
+	font-size: 0;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.navbar-container ul li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.navbar-container ul li a {
+	color: #1d2c59;
+	text-decoration: none;
+	display: inline-block;	
+	padding: 10px;
+	transition: color 0.5s;
+}
+
+.navbar-container ul li .underline {
+	height: 3px;
+	background-color: transparent;
+	width: 0%;
+	transition: width 0.2s, background-color 0.5s;
+	margin: 0 auto;
+}
+
+
+
+
+.topLogo{
+	position: relative;
+	top: 8px;
+}
+
+#navtext{
+	color: #1d2c59;
+	font-size: 21px;
+	margin: 10px;
+}
+
+#navbarSupportedContent{
+	position: relative;
+	left: 100px;
+	
+	
+}
+ 
+.signbutton{
+	background-color: #4885ed;
+	color: #fff;
+	border:none;
+	border-radius:3px;
+	padding:7px 10px;
+	position:relative;
+	bottom:7px;
+	font-weight:bold;
+  }
+.logo{
+	margin-top:200px;
+	margin-bottom:20px;
+  }
+.bar{
+	margin:0 auto;
+	width:575px;
+	position: relative;
+  }
+.bar:hover{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+.bar:focus-within{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+	outline:none;
+  }
+.searchbar{
+	height:45px;
+	border:none;
+	width:500px;
+	font-size:16px;
+	outline: none;
+	border-radius:30px;
+	padding-left: 50px;
+	
+  }
+.searchIcon{
+	height:20px;
+	position: relative;
+	right: 480px;
+  }
+input::placeholder{
+	position: relative;
+	left: 10px;
+}
+
+.container-fluid{
+	width: 80%;
+}
+
+
+
+
+.container-fluid.main{
+	position: relative; /* To make the navbar positions relative to this container */
+	padding: 0;
+  }
+  
+  .navbar-default {
+	background-image: none;
+	background-color: transparent; /* Make the menu become transparent */
+	border-radius: 0px;
+	border: 0;
+	box-shadow: none;
+	padding: 10px;
+	position: absolute; /* Make the menu out of the document flow so it can placed anywhere without disturbing other widgets */
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
+  }
+  
+  .navbar-default .navbar-brand {
+	font-family: Verdana;
+	color: #ffffff;
+	font-size: 20px;
+  }
+  
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+	background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle {
+	border-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+  }
+  
+  .carousel .background {
+	background-position: center center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 700px;
+  }
+  
+  @media (max-width:991px) {
+	.carousel .background {
+	  background-size: cover; /* To make the background image looks good */
+	}
+  }
+  
+  .carousel .background.a {
+	background-image: url("../images/mainImage.png");
+	background-size: 650px;
+	background-position-x: right;
+	position: relative;
+	right: 250px;
+	background-color: #f2f2f2;
+  }
+  
+  
+  
+  .covertext {
+	position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
+	top: 200px; /* The distance between the div with the top of document */
+	left: 0px; /* Make the div full width */
+	right: 0px; /* Make the div full width */
+	width: 50%;
+  }
+  
+
+  .subtitle {
+	font-family: Verdana;
+	font-size: 23px;
+	color: #1d2c59;
+	text-align: center;
+  }
+  
+  .explore {
+	text-align: center;
+	margin-top: 10px;
+  }
+  
+  .explore .btn-lg,
+  .explore .btn-lg:hover {
+	border-radius: 30px;
+	padding: 15px 25px;
+	font-size: 22px;
+	background-image: none;
+	background-color: #FF4000;
+	border-color: #FF4000;
+	color: #ffffff;
+  }
+  
+  .btn,
+  .btn:hover {
+	border-radius: 0px;
+	background-image: none;
+	background-color: #FF4000;
+	border-color: #FF4000;
+	color: #ffffff;
+	margin-bottom: 20px;
+	box-shadow: none;
+	outline: none;
+  }
+  
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+	color: #ffffff;
+	outline: none;
+  }
+
+
+.backgroundCaro{
+	width: 100%;
+}
+
+
+
+
+
+#exploreBTN{
+	background-color: #98EECC;
+	color: #1d2c59;
+	border: 0;
+}
+
+.title {
+	font-family: Verdana;
+	font-weight: 600;
+	font-size:50px;
+	color: #1d2c59;
+	text-align: center;
+	padding: 50px;
+  }
+  
+
+
+
+
+
+
+.container {
+	width: 350px;
+	height: 70px;
+	background-color: #fff;
+  /*   margin: 20vh auto; */
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	border-radius: 4rem;
+	padding: 10px;
+	width: 40%;
+  }
+  
+  .search__box {
+	float: left;
+	width: 0;
+	height: 4rem;
+  /*   display: inline; */
+	background: none;
+	color: #000;
+	font-size: 1.5rem;
+	border-radius: 2rem;
+	outline: none;
+	border: none;
+	position: relative;
+	opacity: 1;
+	transition: all .75s ease-in;
+	cursor: pointer;
+  /*   border: 2px solid tomato; */
+  /*   margin-top: 5px; */
+  }
+  
+  /* .search__box:focus, .search__box:hover {
+	background-color: #f1f2f6;
+  } */
+  
+  .search__icon {
+	box-sizing: border-box;
+	font-size: 2rem;
+	display: inline-block;
+  /*   justify-content: center;
+	align-items: center; */
+	margin-left: .8rem;
+	margin-top: 0;
+	cursor: pointer;
+	position: absolute;
+	color: #1d2c59;
+	transition: all .25s ease-in;
+	padding: .7rem;
+	border-radius: 50%;
+  }
+  
+  .container:hover > .search__box {
+	width: 85%;
+	padding: 0 1rem;
+	position: relative;
+	bottom: 6px;
+  }
+  
+ 
+  
+  .show {
+	width: 85%;
+	border: 1px solid red;
+  }
+  
+
+
+  .zoomInDown-animate,.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
+	opacity: 0;
+  }
+  
+  .zoomInDown-animate.animated,.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
+	opacity: 1;
+  }
+  
+
+.ftco-animate{
+	opacity: 0;
+	visibility: hidden;
+}
+
+  
+.article{
+	width:900px;
+	margin:30px;
+	padding:12px;
+	background:#efefef;
+	border-radius:5px;
+  }
+  .image{
+	background:silver;
+	width:500px;
+	height:400px;
+	border-radius:5px;
+	padding:20px;
+	color:#efefef;
+	font-size:8rem;
+	&.right{
+	  float:right;
+	  margin-left:20px;
+	}
+	&.left{
+	  float:left;
+	  margin-right:30px;
+	}
+  }
+  .content{
+	padding: 0 20px;
+	color:#444;
+	.headline{
+		color: #1d2c59;
+		font-size: 25px;
+		font-weight: 700;
+	}
+  }
+  
+
+  .group{
+	&:before,
+	&:after {
+	  content: "";
+	  display: table;
+	} 
+	&:after {
+	  clear: both;
+	}
+  }
+
+
+
+
+.carousel-ban-text-adj{
+	position: absolute;
+	width: 650px;
+	display: flex;
+	margin-left: 18px;
+	bottom: 180px;
+  background-color: #fff;
+border-radius: 12px;
+padding: 8px;
+left: 250px;
+top: 60px;
+height: 390px;
+box-shadow: 10px 10px;
+
+
+}
+.carousel-header-adj{
+	margin: 0;
+	vertical-align: top;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	left: -3px;
+}
+.carousel-paragraph{
+margin-left: 0;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-left: 0;  
+}
+.carousel-img-fit{
+min-width: 980px;
+min-height: 500px;
+object-fit: cover;
+object-position: 50% 50%;
+}
+.carousel-banner{
+max-height: 600px !important;
+min-height: 500px;
+}
+.carousel-banner-indicator{
+margin-left:auto;
+margin-right:auto;
+transition: 1s;
+}
+.carousel-indicators li {
+width: 250px;
+margin-top: -150px;
+margin-left: -60px;
+transition: 1s;
+opacity: 1;
+}
+.carousel-indicators li.active {
+border-top: 4px solid #8e3387;
+z-index:15;
+}
+.carousel-swap-adjuster{
+	bottom: -20px;
+}
+.carousel-banner.active { 
+display: flex;
+justify-content: center;
+}
+.carousel-banner.carousel-item-next{
+display: flex;
+justify-content: center;
+}
+.carousel-banner.carousel-item-prev{
+display: flex;
+justify-content: center;
+}
+@media (max-width: 768px) {
+.carousel-swap-adjuster{
+	bottom: -40px;
+}
+}
+@media (max-width: 550px) {
+.carousel-swap-adjuster{
+	bottom: -75px;
+}
+}
+@media (max-width: 380px) {
+.carousel-swap-adjuster{
+	bottom: -105px;
+}
+}
+
+
+.tile_1{
+z-index: 14;
+}
+.tile_2{
+z-index: 13;
+}
+.tile_3{
+z-index: 12;
+}
+

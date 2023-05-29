@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="assets/images/topLogo.ico" rel="icon">
+
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+
+
+  <title>Care Consult</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #98EECC;">
+    <div class="container-fluid">
+      <img src="assets/images/topLogo.png" alt="" class="topLogo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="navtext" aria-current="page" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" id="navtext" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="navtext" aria-current="page" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="navtext" aria-current="page" href="#">Medicines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="navtext" aria-current="page" href="#">Doctors</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navtext" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <div class="container">
+          <input type="text" id="box" placeholder="Search anything..." class="search__box">
+          <i class="fas fa-search search__icon" id="icon" onclick="toggleShow()"></i>
+        </div>
+        <!-- <form class="d-flex" role="search">
+                <div class="bar">
+
+                    <input class="searchbar" type="text" placeholder="Search for anything" title="Search">
+                    <a href="#"> <img class="searchIcon" src="assets/images/search.png" title="Search by Voice"></a>
+            </div>
+              </form> -->
+
+
+
+      </div>
+    </div>
+  </nav>
+  <!-- ending of the top navbar over here-->
+
+
+  <!-- ending of carousel over here-->
+
+
+
+  
+
+<div>
+  <!--Carousel Wrapper-->
+  <div id="carousel-thumb" class="carousel carousel-thumbnails slide" data-ride="carousel" data-interval="15000">
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active carousel-banner">
+        <img class="d-block w-100 carousel-img-fit zoomInDown-animate" src="assets/images/bg2.png" alt="First slide">
+        <div class="row carousel-ban-text-adj fadeInleft-animate">
+          <div class="row col-12">
+            <h1 class="col-12 title carousel-header-adj ftco-animate">Someone who Care About You!!</h1>
+            <p class="col-12 subtitle carousel-paragraph ftco-animate">Welcome to Care Consult</p>
+            <div class="col-xs-12 explore">
+              <a href="#"><button type="button" class="btn btn-lg explorebtn ftco-animate" id="exploreBTN">EXPLORE</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-banner">
+        <img class="d-block w-100 carousel-img-fit" src="https://www.colorbook.io/imagecreator.php?hex=f2f2f2&width=1920&height=1080&text=%201920x1080" alt="Second slide">
+        <div class="row carousel-ban-text-adj">
+          <div class="row col-12">
+            <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+            <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elite. </p>
+            <a href="/internet" class="btn btn-primary btn-large col-md-3">Neque porro</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-banner">
+        <img class="d-block w-100 carousel-img-fit" src="https://www.colorbook.io/imagecreator.php?hex=f2f2f2&width=1920&height=1080&text=%201920x1080" alt="Third slide">
+        <div class="row carousel-ban-text-adj">
+          <div class="row col-12">
+            <h1 class="col-12 carousel-header-adj">Lorem Ipsum</h1>
+            <p class="col-12 carousel-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <a href="/#" class="btn btn-primary btn-large col-md-3">Neque porro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+    <!-- <ol class="carousel-indicators carousel-swap-adjuster carousel-banner-indicator ">
+      <li data-target="#carousel-thumb" data-slide-to="0" class="active tile_3">
+        <div>
+          <img class="d-block w-100 " src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(88).jpg" class="img-fluid">
+          <p>text example</p>
+        </div>
+      </li>
+      <li data-target="#carousel-thumb" data-slide-to="1" class="tile_2">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(121).jpg" class="img-fluid">
+      </li>
+      <li data-target="#carousel-thumb" data-slide-to="2" class="tile_1">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Others/Carousel-thumbs/img%20(31).jpg" class="img-fluid">
+      </li>
+    </ol>
+  </div> -->
+  <!--/.Carousel Wrapper-->
+
+<!-- 
+  <div class="container-fluid main" style="width: 100%;">
+
+
+
+    <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner" role="listbox" style="background-color: #f2f2f2;">
+        <div class="item active background a backgroundCaro"></div>
+      </div>
+    </div>
+
+    <div class="covertext">
+      <div class="col-lg-10" style="float:none; margin:0 auto;">
+
+
+        <h1 class="title zoomInDown-animate">Someone who Care About You!!</h1>
+        <h3 class="subtitle">Welcome to Care Consult</h3>
+      </div>
+      <div class="col-xs-12 explore">
+        <a href="#"><button type="button" class="btn btn-lg explorebtn" id="exploreBTN">EXPLORE</button></a>
+      </div>
+    </div>
+
+  </div> -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="secondContainer">
+    <h1 class="title ftco-animate">WHAT WE DO?</h1>
+    <br>
+    <br>
+
+    <center>
+
+      <article class="article group">
+        <img class="image right rotateInDownRight-animate" src="assets/images/whatwedo.png" alt="Image">
+        <section class="content fadeInleft-animate">
+          <h3 class="headline ftco-animate">Introducing True Healthcare Medi-Buddy</h2>
+            <p style="text-align: left;">Introducing True Healthcare, a revolutionary solution for your entire family, powered by Medi-Buddy -
+              your trusted personalized chat bot. Enjoy unparalleled convenience as you gain seamless access to
+              comprehensive medical care and effortlessly manage your healthcare needs. With its intelligent features,
+              Medi-Buddy even recommends the most suitable medicines when you enter your specific condition. Embrace a
+              new era of simplified healthcare processes and let Medi-Buddy guide you through your medical journey with
+              ease and precision.</p>
+            <!-- <ul>
+              <li><h4 class="headline">True Healthcare for family</h4></li>
+              <li><h4 class="headline">Medi-Buddy, Your Personal chat bot</h4></li>
+              <li><h4 class="headline">See all details about your medicare</h4></li>
+              <li><h4 class="headline">Get your appointment done</h4></li>
+            </ul> -->
+
+
+        </section>
+      </article>
+    </center>
+
+  </div>
+
+
+
+
+
+
+  <div class="vhcf-section">
+    <div class="vhcf-row">
+      <div class="vhcf-column">
+        <div class="vhcf-module">
+          <img src="assets/images/whatwedo.png" alt="" id="whatwedoImage" class="fadeInleft-animate">
+        </div> <!-- .vhcf-module -->
+        <div class="vhcf-module">
+          <div class="vhcf-promo_description">
+            <!-- <h2 class="vhcf-module_header">What is Lorem Ipsum?</h2> -->
+            <h4 class="vhcf-module_header zoomInDown-animate">True Healthcare for family</h4>
+            <h4 class="vhcf-module_header zoomInDown-animate">Medi-Buddy, Your Personal chat bot</h4>
+            <h4 class="vhcf-module_header zoomInDown-animate">see all details about your medicare</h4>
+            <h4 class="vhcf-module_header zoomInDown-animate">Get your appointment done</h4>
+            <!-- <p><em><strong>There are many variations of passages of Lorem Ipsum available. </strong></em></p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> -->
+          </div>
+        </div> <!-- .vhcf-module -->
+      </div> .vhcf-column
+
+
+
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <!-- link for addding auto typing over here -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="js/jquery-migrate-3.0.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/jquery.animateNumber.min.js"></script>
+      <script src="js/scrollax.min.js"></script>
+      <script src="assets/js/landing.js"></script>
+
+
+</body>
+
+
+</html>
