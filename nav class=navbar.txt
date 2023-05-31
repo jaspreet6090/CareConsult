@@ -1,0 +1,237 @@
+nav class=navbar
+  div class=navbar-container container
+    input type=checkbox name= id=
+    div class=hamburger-lines
+      span class=line line1span
+      span class=line line2span
+      span class=line line3span
+    div
+    ul class=menu-items
+      lia href=#Homeali
+      lia href=#Aboutali
+      lia href=#Categoryali
+      lia href=#Menuali
+      lia href=#Testimonialali
+      lia href=#Contactali
+    ul
+    h1 class=logoNavbarh1
+  div
+nav
+
+
+
+
+!--   
+
+
+  nav class=navbar navbar-expand-lg style=background-color #98EECC;
+    div class=container-fluid
+      img src=assetsimagestopLogo.png alt= class=topLogo
+      button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent
+        aria-controls=navbarSupportedContent aria-expanded=false aria-label=Toggle navigation
+        span class=navbar-toggler-iconspan
+      button
+
+
+
+
+      div class=collapse navbar-collapse id=navbarSupportedContent
+        ul class=navbar-nav me-auto mb-2 mb-lg-0
+          li class=nav-item
+            a class=nav-link active id=navtext aria-current=page href=#Homea
+          li
+
+          li class=nav-item
+            a class=nav-link active id=navtext aria-current=page href=#Abouta
+          li
+          li class=nav-item
+            a class=nav-link active id=navtext aria-current=page href=#Pricinga
+          li
+          li class=nav-item
+            a class=nav-link active id=navtext aria-current=page href=#Medicinesa
+          li
+          li class=nav-item
+            a class=nav-link active id=navtext aria-current=page href=#Doctorsa
+          li
+          li class=nav-item dropdown
+            a class=nav-link dropdown-toggle href=# id=navtext role=button data-bs-toggle=dropdown
+              aria-expanded=false
+              Products
+            a
+            ul class=dropdown-menu
+              lia class=dropdown-item href=#Actionali
+              lia class=dropdown-item href=#Another actionali
+              li
+                hr class=dropdown-divider
+              li
+              lia class=dropdown-item href=#Something else hereali
+            ul
+          li
+
+        ul
+      
+
+
+
+      div
+    div
+  nav --
+  !-- ending of the top navbar over here--
+
+
+  !-- ending of carousel over here--
+
+
+
+  
+
+div
+  !--Carousel Wrapper--
+  div id=carousel-thumb class=carousel carousel-thumbnails slide data-ride=carousel data-interval=15000
+    !--Slides--
+    div class=carousel-inner role=listbox
+      div class=carousel-item active carousel-banner
+        img class=d-block w-100 carousel-img-fit zoomInDown-animate src=assetsimagesbg2.png alt=First slide
+        div class=row carousel-ban-text-adj fadeInleft-animate
+          div class=row col-12
+            h1 class=col-12 title carousel-header-adj ftco-animateSomeone who Care About You!!h1
+            p class=col-12 subtitle carousel-paragraph ftco-animateWelcome to Care Consultp
+            div class=col-xs-12 explore
+              a href=#button type=button class=btn btn-lg explorebtn ftco-animate id=exploreBTNEXPLOREbuttona
+            div
+          div
+        div
+      div
+      div class=carousel-item carousel-banner
+        img class=d-block w-100 carousel-img-fit src=httpswww.colorbook.ioimagecreator.phphex=f2f2f2&width=1920&height=1080&text=%201920x1080 alt=Second slide
+        div class=row carousel-ban-text-adj
+          div class=row col-12
+            h1 class=col-12 carousel-header-adjLorem Ipsumh1
+            p class=col-12 carousel-paragraphLorem ipsum dolor sit amet, consectetur adipiscing elite. p
+            a href=internet class=btn btn-primary btn-large col-md-3Neque porroa
+          div
+        div
+      div
+      div class=carousel-item carousel-banner
+        img class=d-block w-100 carousel-img-fit src=httpswww.colorbook.ioimagecreator.phphex=f2f2f2&width=1920&height=1080&text=%201920x1080 alt=Third slide
+        div class=row carousel-ban-text-adj
+          div class=row col-12
+            h1 class=col-12 carousel-header-adjLorem Ipsumh1
+            p class=col-12 carousel-paragraphLorem ipsum dolor sit amet, consectetur adipiscing elit. p
+            a href=# class=btn btn-primary btn-large col-md-3Neque porroa
+          div
+        div
+      div
+    div
+    !--.Slides--
+    !--Controls--
+    a class=carousel-control-prev href=#carousel-thumb role=button data-slide=prev
+      span class=carousel-control-prev-icon aria-hidden=truespan
+      span class=sr-onlyPreviousspan
+    a
+    a class=carousel-control-next href=#carousel-thumb role=button data-slide=next
+      span class=carousel-control-next-icon aria-hidden=truespan
+      span class=sr-onlyNextspan
+    a
+    !--.Controls--
+    !-- ol class=carousel-indicators carousel-swap-adjuster carousel-banner-indicator 
+      li data-target=#carousel-thumb data-slide-to=0 class=active tile_3
+        div
+          img class=d-block w-100  src=httpsmdbootstrap.comimgPhotosOthersCarousel-thumbsimg%20(88).jpg class=img-fluid
+          ptext examplep
+        div
+      li
+      li data-target=#carousel-thumb data-slide-to=1 class=tile_2
+        img class=d-block w-100 src=httpsmdbootstrap.comimgPhotosOthersCarousel-thumbsimg%20(121).jpg class=img-fluid
+      li
+      li data-target=#carousel-thumb data-slide-to=2 class=tile_1
+        img class=d-block w-100 src=httpsmdbootstrap.comimgPhotosOthersCarousel-thumbsimg%20(31).jpg class=img-fluid
+      li
+    ol
+  div --
+  !--.Carousel Wrapper--
+
+!-- 
+  div class=container-fluid main style=width 100%;
+
+
+
+    div id=myCarousel class=carousel carousel-fade slide data-ride=carousel data-interval=3000
+      div class=carousel-inner role=listbox style=background-color #f2f2f2;
+        div class=item active background a backgroundCarodiv
+      div
+    div
+
+    div class=covertext
+      div class=col-lg-10 style=floatnone; margin0 auto;
+
+
+        h1 class=title zoomInDown-animateSomeone who Care About You!!h1
+        h3 class=subtitleWelcome to Care Consulth3
+      div
+      div class=col-xs-12 explore
+        a href=#button type=button class=btn btn-lg explorebtn id=exploreBTNEXPLOREbuttona
+      div
+    div
+
+  div --
+  br
+  br
+  br
+  br
+  br
+
+  div class=secondContainer
+    h1 class=title ftco-animateWHAT WE DOh1
+    br
+    br
+
+    center
+
+      article class=article group
+        img class=image right rotateInDownRight-animate src=assetsimageswhatwedo.png alt=Image
+        section class=content fadeInleft-animate
+          h3 class=headline ftco-animateIntroducing True Healthcare Medi-Buddyh2
+            p style=text-align left;Introducing True Healthcare, a revolutionary solution for your entire family, powered by Medi-Buddy -
+              your trusted personalized chat bot. Enjoy unparalleled convenience as you gain seamless access to
+              comprehensive medical care and effortlessly manage your healthcare needs. With its intelligent features,
+              Medi-Buddy even recommends the most suitable medicines when you enter your specific condition. Embrace a
+              new era of simplified healthcare processes and let Medi-Buddy guide you through your medical journey with
+              ease and precision.p
+            !-- ul
+              lih4 class=headlineTrue Healthcare for familyh4li
+              lih4 class=headlineMedi-Buddy, Your Personal chat both4li
+              lih4 class=headlineSee all details about your medicareh4li
+              lih4 class=headlineGet your appointment doneh4li
+            ul --
+
+
+        section
+      article
+    center
+
+  div
+
+
+
+
+
+
+  div class=vhcf-section
+    div class=vhcf-row
+      div class=vhcf-column
+        div class=vhcf-module
+          img src=assetsimageswhatwedo.png alt= id=whatwedoImage class=fadeInleft-animate
+        div !-- .vhcf-module --
+        div class=vhcf-module
+          div class=vhcf-promo_description
+            !-- h2 class=vhcf-module_headerWhat is Lorem Ipsumh2 --
+            h4 class=vhcf-module_header zoomInDown-animateTrue Healthcare for familyh4
+            h4 class=vhcf-module_header zoomInDown-animateMedi-Buddy, Your Personal chat both4
+            h4 class=vhcf-module_header zoomInDown-animatesee all details about your medicareh4
+            h4 class=vhcf-module_header zoomInDown-animateGet your appointment doneh4
+            !-- pemstrongThere are many variations of passages of Lorem Ipsum available. strongemp
+                  pLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.p --
+          div
+        div !-- .vhcf-module --
+      div .vhcf-column

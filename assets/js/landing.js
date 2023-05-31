@@ -145,3 +145,62 @@ $(document).ready(function () {
     var el = document.getElementById("box");
     el.classList.toggle("show");
   }
+
+
+
+
+  $(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+
+
+
+
+jQuery(document).ready(function($) {
+  "use strict";
+  //  TESTIMONIALS CAROUSEL HOOK
+  $('#customers-testimonials').owlCarousel({
+      loop: true,
+      center: true,
+      items: 3,
+      margin: 0,
+      autoplay: true,
+      dots:true,
+      autoplayTimeout: 8500,
+      smartSpeed: 450,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1170: {
+          items: 3
+        }
+      }
+  });
+});
+
+
+
